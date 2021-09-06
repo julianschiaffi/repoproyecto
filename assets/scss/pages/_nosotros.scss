@@ -1,0 +1,35 @@
+#nosotros{
+    background-color: $colorBackgrounb;
+    p{
+        word-spacing:10px;
+        font-size: $fontFooter;
+        font-family: $fontGeneral;
+        margin: 25px 10px 25px 10px;
+        padding: 10px 0px 10px 10px; 
+    }
+    p:nth-child(1){
+        color: rgb(252, 252, 252);
+        background-color: rgb(118, 139, 20); 
+    }  
+
+    p:nth-child(2){
+        color: rgb(250, 249, 239);
+        background-color: rgb(170, 6, 162);
+    }
+    
+    p:nth-child(3){
+        color: rgb(245, 244, 239);
+        background-color: rgb(25, 4, 141);
+    }
+
+    p:nth-child(4){
+        color: rgb(240, 243, 245);
+        background-color: rgb(2, 151, 52); 
+    }
+    
+    p:nth-child(5){
+        color: rgb(240, 243, 245);
+        background-color: rgb(20, 20, 20); 
+    }
+}
+    

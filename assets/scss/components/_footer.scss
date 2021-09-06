@@ -1,0 +1,22 @@
+footer{
+    background-color: black;
+    padding: 0%;
+    margin: 0%;
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 160px;
+        list-style-type: none;
+        padding-top: 50px;
+    }
+    i{
+        border-radius: 50%;
+        text-align: center;
+        align-items: center;
+        font-size: $fontSize;
+        color: $colorFooter;
+        @include animation(intermitente,2s,infinite);
+    }  
+}
+

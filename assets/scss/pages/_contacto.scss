@@ -1,0 +1,47 @@
+#contacto{
+    background-color: $colorBackgrounb;
+    p{
+        color: $colorLetra;
+        background-color: $colorFondo;
+        word-spacing:10px;
+        font-size: $fontFooter;
+        font-family: $fontTitulo;
+        border: 4px solid black;
+        margin-top: 20px;
+        padding: 0%; 
+    }
+    fieldset{
+        border: 4px solid black;
+        padding: 10px 5px 10px 30px;
+        margin-bottom: 10px;    }
+    form{
+        background-color: $colorBackgrounb;
+        color: rgb(133, 98, 34);
+        margin: 30px 5px 0px 5px;
+        padding: 0px 50px 30px 50px;
+    }
+    legend{
+        font-size:2rem;
+        font-family: $fontGeneral;
+        color: $colorContacto; 
+    }
+    input{
+        font-size: 1.5rem;
+        transition: 1s all;
+        color: $colorContacto;
+    }
+    input:focus{
+        background-color: rgb(248, 248, 248);
+    }
+    input:hover{
+        transform: scale(1.1,1.5);
+    }
+    label{
+        font-size: 1.5rem;
+        color: $colorContacto;
+        font-family: $fontGeneral;
+    }
+     
+}
+   
+    

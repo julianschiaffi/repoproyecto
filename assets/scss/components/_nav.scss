@@ -1,0 +1,33 @@
+nav{
+    padding: 0%;
+    ul{
+       @include flex(row,space-around,center);
+       background-color: $colorBackgrounb;
+       margin-left: 100px;
+       right: 100%;
+   }
+    li:hover{
+       transform: scale(1);
+   }
+   
+   li{
+       padding: 0%;
+       transition: 1s;
+   }            
+   
+   a{
+       letter-spacing: 5px;;
+       background-color: rgb(253, 253, 251);
+       font-family: $fontTitulo;
+       color: rgb(2, 2, 2);
+       font-size: 2rem;
+       font-weight: 100;
+       font-style: italic;
+        @include animation(intermitente,2.5s,infinite);
+    }    
+}
+
+
+   
+        
+    
